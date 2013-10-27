@@ -117,7 +117,7 @@ map <C-j> :m .+1<CR>==
 map <C-k> :m .-2<CR>==
 
 " Open and focus tagbar. Provided by tagbar plugin.
-nnoremap <leader>e :TagbarOpen fj<CR>
+nnoremap <leader>t :TagbarOpen fj<CR>
 
 " Autoclose the tagbar after choosing an item from it.
 let g:tagbar_autoclose = 1
@@ -150,6 +150,12 @@ nnoremap <silent> <leader>q :hide<CR>
 
 " Better highlight color for command-t
 let g:CommandTHighlightColor='WildMenu'
+
+" Insert 2 lines and remain on first new line
+nnoremap <silent> <leader><CR> 2o<esc>ki
+
+" Automatically expand <CR>
+let delimitMate_expand_cr = 1
 
 " Activate pathogen plugin
 call pathogen#infect() 

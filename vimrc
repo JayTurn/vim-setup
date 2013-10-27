@@ -117,7 +117,7 @@ map <C-j> :m .+1<CR>==
 map <C-k> :m .-2<CR>==
 
 " Open and focus tagbar. Provided by tagbar plugin.
-nnoremap <leader>b :TagbarOpen fj<CR>
+nnoremap <leader>e :TagbarOpen fj<CR>
 
 " Autoclose the tagbar after choosing an item from it.
 let g:tagbar_autoclose = 1

@@ -5,4 +5,6 @@ My vim configuration
 
 Command-T
 =========
-After updating Command-T, see installation information to update (eg. :help command-t-installation)
+On initial setup, or after updating Command-T, see installation information to update
+ - :help command-t-installation
+

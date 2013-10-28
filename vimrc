@@ -107,6 +107,8 @@ set colorcolumn=80
 
 " Show search matches while typing
 set showmatch
+set ignorecase
+set smartcase
 
 " Window switching
 map <Tab> <C-w>w

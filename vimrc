@@ -156,8 +156,19 @@ let g:CommandTHighlightColor='WildMenu'
 " Insert 2 lines and remain on first new line
 nnoremap <silent> <leader><CR> 2o<esc>ki
 
+" Map keys for easily switching between buffers
+map <leader>n :bn<cr>
+map <leader>p :bp<cr>
+map <leader>l :ls<cr>
+
 " Automatically expand <CR>
 let delimitMate_expand_cr = 1
+
+" Filetype associations for Drupal.
+au BufRead,BufNewFile *.install set filetype=php
+au BufRead,BufNewFile *.module set filetype=php
+au BufRead,BufNewFile *.profile set filetype=php
+au BufRead,BufNewFile *.inc set filetype=php
 
 " Activate pathogen plugin
 call pathogen#infect() 

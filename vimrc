@@ -161,6 +161,20 @@ map <leader>n :bn<cr>
 map <leader>p :bp<cr>
 map <leader>l :ls<cr>
 
+" Map function keys which are unavaiable on mac
+map <leader>1 <F1>
+map <leader>2 <F2>
+map <leader>3 <F3>
+map <leader>4 <F4>
+map <leader>5 <F5>
+map <leader>6 <F6>
+map <leader>7 <F7>
+map <leader>8 <F8>
+map <leader>9 <F9>
+map <leader>10 <F10>
+map <leader>11 <F11>
+map <leader>12 <F12>
+
 " Automatically expand <CR>
 let delimitMate_expand_cr = 1
 

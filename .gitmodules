@@ -25,3 +25,6 @@
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate
+[submodule "bundle/DBGp-client"]
+	path = bundle/DBGp-client
+	url = git@github.com:vim-scripts/DBGp-client.git

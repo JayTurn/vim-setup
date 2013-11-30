@@ -28,3 +28,6 @@
 [submodule "bundle/DBGp-client"]
 	path = bundle/DBGp-client
 	url = git@github.com:vim-scripts/DBGp-client.git
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = git@github.com:terryma/vim-multiple-cursors.git

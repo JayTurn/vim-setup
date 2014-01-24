@@ -132,8 +132,8 @@ map <C-b> :NERDTreeToggle<CR>
 " Set the path to the current workding directory
 set path=$PWD/**
 
-" Make gutter line numbers relative.
-set relativenumber
+" Show gutter line numbers.
+set number
 
 " Toggle relative / absolute line numbers.
 nnoremap <silent> <leader>r :exec &number ? "set relativenumber" : "set number"<CR>
@@ -174,6 +174,8 @@ map <leader>9 <F9>
 map <leader>10 <F10>
 map <leader>11 <F11>
 map <leader>12 <F12>
+
+nnoremap <leader>c :!drush cc all<CR>
 
 " Automatically expand <CR>
 let delimitMate_expand_cr = 1

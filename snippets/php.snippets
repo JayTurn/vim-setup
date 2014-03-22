@@ -1,0 +1,21 @@
+snippet hook
+	/**
+	 * Implements hook_$2().
+	 */
+	function ${1:module_name}_${2:hook}(${3:params}) {
+		${4}
+	}
+snippet alter
+	/**
+	 * Implements hook_$2_alter().
+	 */
+	function ${1:module_name}_${2:hook}_alter(&$${3:params}) {
+		${4}
+	}
+snippet formalter
+	/**
+	 * Implements hook_form_$2_alter().
+	 */
+	function ${1:module_name}_form_${2:form_id}_alter(&$${3:params}) {
+		${4}
+	}

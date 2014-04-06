@@ -1,21 +1,28 @@
 snippet hook
 	/**
-	 * Implements hook_$2().
+	 * Implements hook_$1().
 	 */
-	function ${1:module_name}_${2:hook}(${3:params}) {
-		${4}
+	function `Filename()`_${1:hook}(${2}) {
+		${2:// Your code here}
 	}
 snippet alter
 	/**
-	 * Implements hook_$2_alter().
+	 * Implements hook_$1_alter().
 	 */
-	function ${1:module_name}_${2:hook}_alter(&$${3:params}) {
-		${4}
+	function `Filename()`_${1:hook}_alter(&$${2:params}) {
+		${3:// Your code here}
 	}
 snippet formalter
 	/**
-	 * Implements hook_form_$2_alter().
+	 * Implements hook_form_$1_alter().
 	 */
-	function ${1:module_name}_form_${2:form_id}_alter(&$${3:params}) {
-		${4}
+	function `Filename()`_form_${1:form_id}_alter(&$${2:params}) {
+		${3:// Your code here}
 	}
+snippet file
+	<?php
+	/**
+	 * @file
+	 * ${1:comment}
+	 */
+	${2}

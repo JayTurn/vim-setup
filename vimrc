@@ -185,9 +185,13 @@ au BufRead,BufNewFile *.install set filetype=php
 au BufRead,BufNewFile *.module set filetype=php
 au BufRead,BufNewFile *.profile set filetype=php
 au BufRead,BufNewFile *.inc set filetype=php
+au BufRead,BufNewFile *.info set filetype=info
 
 " Drupal coding standards with phpcs
 let g:syntastic_php_phpcs_args ="--standard=Drupal --extensions=php,module,inc,install,test,profile,theme --report=csv"
+
+" Load ctags
+set tags=php.tags
 
 " Activate pathogen plugin
 call pathogen#infect() 

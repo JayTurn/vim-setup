@@ -1,3 +1,5 @@
+set exrc
+
 " Based on an example for a vimrc file by Bram Moolenaar <Bram@vim.org>
 
 if v:progname =~? "evim"
@@ -124,8 +126,32 @@ nnoremap <leader>t :TagbarOpen fj<CR>
 " Autoclose the tagbar after choosing an item from it.
 let g:tagbar_autoclose = 1
 
+" Run PhpCodeSniffer via syntastic
+let g:syntastic_phpcs_conf=" --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
+
+" Show hidden files in NERDTree
+let NERDTreeShowHidden = 1
+
+" Supertab completion
+let g:SuperTabDefaultCompletionType = ""
+
 " Browse for files in the current working directory to open in a new tab.
 map <C-b> :NERDTreeToggle<CR>
+map <C-f> :NERDTreeFind<cr>
+
+" Define the number of files ctrlP has access to."
+
+
+" Set VIM symfony mapping"
+let g:symfony_enable_shell_mapping = 0 "disable the mapping of symfony console
+
+" Use your key instead of default key which is <C-F>
+map <leader>f :execute ":!"g:symfony_enable_shell_cmd<CR>
+
+" Set symfony caller variables"
+let g:symfony_app_console_caller= "php"
+let g:symfony_app_console_path= "app/console"
+
 "map <C-b>. :browse tabe .<CR> 
 "map <C-b>t :Texplore<CR> 
 
@@ -136,7 +162,7 @@ set path=$PWD/**
 set number
 
 " Toggle relative / absolute line numbers.
-nnoremap <silent> <leader>r :exec &number ? "set relativenumber" : "set number"<CR>
+nnoremap <silent> <leader>r :exec &number ? "set rnu" : "set nornu"<CR>
 
 " Clear search highliting.
 nnoremap <leader>h :nohlsearch<CR>
@@ -149,6 +175,10 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
 " Close a split window with space q.
 nnoremap <silent> <leader>q :hide<CR>
+
+" Debugger settings
+let g:debuggerMaxDepth = 10
+let g:debuggerTimeout = 30
 
 " Better highlight color for command-t
 let g:CommandTHighlightColor='WildMenu'
@@ -186,12 +216,51 @@ au BufRead,BufNewFile *.module set filetype=php
 au BufRead,BufNewFile *.profile set filetype=php
 au BufRead,BufNewFile *.inc set filetype=php
 au BufRead,BufNewFile *.info set filetype=info
+au BufRead,BufNewFile *.theme set filetype=php
 
 " Drupal coding standards with phpcs
 let g:syntastic_php_phpcs_args ="--standard=Drupal --extensions=php,module,inc,install,test,profile,theme --report=csv"
+
+let g:syntastic_javascript_checkers = ['jshint']
+" Javascript coding standards with JSHint & JSCS
+"function! JavascriptLinter(curpath)
+  "let parent=1
+  "let local_path=a:curpath
+  "let local_jscs=local_path . '.jscsrc'
+
+  "while parent <= 255
+    "let parent = parent + 1
+    "let local_path = local_path . "../"
+    "let local_jscs = local_path . '.jscsrc'
+    "if filereadable(local_jscs)
+      "return ['jscs', 'jshint']
+    "endif
+  "endwhile
+
+  "unlet parent local_jscs
+
+  "return ['jshint']
+"endfunction
+
+"let g:syntastic_javascript_checkers=JavascriptLinter(getcwd() . "/")
+
+" jscs returns exit code when no config file is present.
+" Only load it when appropriate.
+"function! JavascriptCheckers()
+  "if filereadable(getcwd() . '/.jscsrc')
+    "return ['jshint', 'jscs']
+  "else
+    "return ['jshint']
+  "endif
+"endfunction"
+
+"let g:syntastic_javascript_checkers=JavascriptCheckers()
 
 " Load ctags
 set tags=php.tags
 
 " Activate pathogen plugin
-call pathogen#infect() 
+call pathogen#infect()
+
+" Disable unsafe commands
+set secure

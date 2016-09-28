@@ -1,0 +1,428 @@
+
+chdir(/Users/jayturn)
+fchdir() to previous dir
+chdir(/usr/local/share/vim)
+fchdir() to previous dir
+could not source "$VIM/vimrc"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+could not source "$VIMRUNTIME/macmap.vim"
+chdir(/Users/jayturn)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 44: sourcing "/usr/local/share/vim/vim74/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/syntax/synload.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/local/share/vim/vim74/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/local/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/synload.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/jayturn/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim74/syntax/synload.vim
+continuing in /usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/syntax.vim
+Searching for "filetype.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/filetype.vim"
+Searching for "/usr/local/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/share/vim/vim74/filetype.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 25: sourcing "/usr/local/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vim74/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/local/share/vim/vim74/filetype.vim
+continuing in /usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/syntax.vim
+Searching for "/usr/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/jayturn/.vim/after/filetype.vim"
+finished sourcing /usr/local/share/vim/vim74/syntax/syntax.vim
+continuing in /Users/jayturn/.vimrc
+Searching for "filetype.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/filetype.vim"
+Searching for "/usr/local/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/share/vim/vim74/filetype.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 55: sourcing "/usr/local/share/vim/vim74/filetype.vim"
+finished sourcing /usr/local/share/vim/vim74/filetype.vim
+continuing in /Users/jayturn/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/jayturn/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/ftplugin.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/local/share/vim/vim74/ftplugin.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 55: sourcing "/usr/local/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/local/share/vim/vim74/ftplugin.vim
+continuing in /Users/jayturn/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/jayturn/.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/indent.vim"
+Searching for "/usr/local/share/vim/vimfiles/indent.vim"
+Searching for "/usr/local/share/vim/vim74/indent.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 55: sourcing "/usr/local/share/vim/vim74/indent.vim"
+finished sourcing /usr/local/share/vim/vim74/indent.vim
+continuing in /Users/jayturn/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/indent.vim"
+Searching for "/Users/jayturn/.vim/after/indent.vim"
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Searching for "syntax/on.vim syntax/on/*.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/syntax/on.vim"
+Searching for "/Users/jayturn/.vim/syntax/on/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/on.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/on/*.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/on.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/on/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/on.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/on/*.vim"
+Searching for "/Users/jayturn/.vim/after/syntax/on.vim"
+Searching for "/Users/jayturn/.vim/after/syntax/on/*.vim"
+not found in 'runtimepath': "syntax/on.vim syntax/on/*.vim"
+Searching for "autoload/pathogen.vim" in "/Users/jayturn/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/autoload/pathogen.vim"
+chdir(/Users/jayturn/.vim/autoload)
+fchdir() to previous dir
+line 199: sourcing "/Users/jayturn/.vim/autoload/pathogen.vim"
+finished sourcing /Users/jayturn/.vim/autoload/pathogen.vim
+continuing in /Users/jayturn/.vimrc
+Searching for "ftoff.vim" in "/Users/jayturn/.vim,/Users/jayturn/.vim/bundle/ack.vim,/Users/jayturn/.vim/bundle/ctrlp.vim,/Users/jayturn/.vim/bundle/DBGp-client,/Users/jayturn/.vim/bundle/delimitMate,/Users/jayturn/.vim/bundle/emmet-vim,/Users/jayturn/.vim/bundle/L9,/Users/jayturn/.vim/bundle/nerdtree,/Users/jayturn/.vim/bundle/snipmate,/Users/jayturn/.vim/bundle/syntastic,/Users/jayturn/.vim/bundle/tagbar,/Users/jayturn/.vim/bundle/vim-fugitive,/Users/jayturn/.vim/bundle/vim-multiple-cursors,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/ftoff.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/ftoff.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftoff.vim"
+Searching for "/usr/local/share/vim/vim74/ftoff.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 2: sourcing "/usr/local/share/vim/vim74/ftoff.vim"
+finished sourcing /usr/local/share/vim/vim74/ftoff.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/usr/local/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/Users/jayturn/.vim/after/ftoff.vim"
+Searching for "filetype.vim" in "/Users/jayturn/.vim,/Users/jayturn/.vim/bundle/ack.vim,/Users/jayturn/.vim/bundle/ctrlp.vim,/Users/jayturn/.vim/bundle/DBGp-client,/Users/jayturn/.vim/bundle/delimitMate,/Users/jayturn/.vim/bundle/emmet-vim,/Users/jayturn/.vim/bundle/L9,/Users/jayturn/.vim/bundle/nerdtree,/Users/jayturn/.vim/bundle/snipmate,/Users/jayturn/.vim/bundle/syntastic,/Users/jayturn/.vim/bundle/tagbar,/Users/jayturn/.vim/bundle/vim-fugitive,/Users/jayturn/.vim/bundle/vim-multiple-cursors,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/filetype.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/filetype.vim"
+Searching for "/usr/local/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/share/vim/vim74/filetype.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 3: sourcing "/usr/local/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/jayturn/.vim,/Users/jayturn/.vim/bundle/ack.vim,/Users/jayturn/.vim/bundle/ctrlp.vim,/Users/jayturn/.vim/bundle/DBGp-client,/Users/jayturn/.vim/bundle/delimitMate,/Users/jayturn/.vim/bundle/emmet-vim,/Users/jayturn/.vim/bundle/L9,/Users/jayturn/.vim/bundle/nerdtree,/Users/jayturn/.vim/bundle/snipmate,/Users/jayturn/.vim/bundle/syntastic,/Users/jayturn/.vim/bundle/tagbar,/Users/jayturn/.vim/bundle/vim-fugitive,/Users/jayturn/.vim/bundle/vim-multiple-cursors,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vim74/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/jayturn/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/local/share/vim/vim74/filetype.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/usr/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/jayturn/.vim/after/filetype.vim"
+finished sourcing $HOME/.vimrc
+Searching for "plugin/**/*.vim" in "/Users/jayturn/.vim,/Users/jayturn/.vim/bundle/ack.vim,/Users/jayturn/.vim/bundle/ctrlp.vim,/Users/jayturn/.vim/bundle/DBGp-client,/Users/jayturn/.vim/bundle/delimitMate,/Users/jayturn/.vim/bundle/emmet-vim,/Users/jayturn/.vim/bundle/L9,/Users/jayturn/.vim/bundle/nerdtree,/Users/jayturn/.vim/bundle/snipmate,/Users/jayturn/.vim/bundle/syntastic,/Users/jayturn/.vim/bundle/tagbar,/Users/jayturn/.vim/bundle/vim-fugitive,/Users/jayturn/.vim/bundle/vim-multiple-cursors,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vim74/plugin/**/*.vim"
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/getscriptPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/getscriptPlugin.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/gzip.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/gzip.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/matchparen.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/matchparen.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/netrwPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/netrwPlugin.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/rrhelper.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/rrhelper.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/spellfile.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/spellfile.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/tarPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/tarPlugin.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/tohtml.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/tohtml.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/vimballPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/vimballPlugin.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/zipPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/zipPlugin.vim
+Searching for "/usr/local/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/Users/jayturn/.vim/after/plugin/**/*.vim"
+Reading viminfo file "/Users/jayturn/.viminfo" info oldfiles
+chdir(/Users/jayturn/.vim)
+fchdir() to previous dir
+                        "~/.vimrc" 
+"~/.vimrc" 199L, 5217C
+Reading viminfo file "/Users/jayturn/.viminfo" marks
+Executing BufRead Auto commands for "*"
+autocommand if line("'\"") > 1 && line("'\"") <= line("$") |   exe "normal! g`\"" | endif
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/Users/jayturn/.vim,/Users/jayturn/.vim/bundle/ack.vim,/Users/jayturn/.vim/bundle/ctrlp.vim,/Users/jayturn/.vim/bundle/DBGp-client,/Users/jayturn/.vim/bundle/delimitMate,/Users/jayturn/.vim/bundle/emmet-vim,/Users/jayturn/.vim/bundle/L9,/Users/jayturn/.vim/bundle/nerdtree,/Users/jayturn/.vim/bundle/snipmate,/Users/jayturn/.vim/bundle/syntastic,/Users/jayturn/.vim/bundle/tagbar,/Users/jayturn/.vim/bundle/vim-fugitive,/Users/jayturn/.vim/bundle/vim-multiple-cursors,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/scripts.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/scripts.vim"
+Searching for "/usr/local/share/vim/vimfiles/scripts.vim"
+Searching for "/usr/local/share/vim/vim74/scripts.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 0: sourcing "/usr/local/share/vim/vim74/scripts.vim"
+finished sourcing /usr/local/share/vim/vim74/scripts.vim
+continuing in BufRead Auto commands for "*"
+Searching for "/usr/local/share/vim/vimfiles/after/scripts.vim"
+Searching for "/Users/jayturn/.vim/after/scripts.vim"
+Executing BufRead Auto commands for "*vimrc*"
+autocommand call s:StarSetf('vim')
+
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Searching for "syntax/vim.vim syntax/vim/*.vim" in "/Users/jayturn/.vim,/Users/jayturn/.vim/bundle/ack.vim,/Users/jayturn/.vim/bundle/ctrlp.vim,/Users/jayturn/.vim/bundle/DBGp-client,/Users/jayturn/.vim/bundle/delimitMate,/Users/jayturn/.vim/bundle/emmet-vim,/Users/jayturn/.vim/bundle/L9,/Users/jayturn/.vim/bundle/nerdtree,/Users/jayturn/.vim/bundle/snipmate,/Users/jayturn/.vim/bundle/syntastic,/Users/jayturn/.vim/bundle/tagbar,/Users/jayturn/.vim/bundle/vim-fugitive,/Users/jayturn/.vim/bundle/vim-multiple-cursors,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/syntax/vim/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/vim.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/vim/*.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/vim.vim"
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 24: sourcing "/usr/local/share/vim/vim74/syntax/vim.vim"
+chdir(/usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 629: sourcing "/usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/ruby.vim"
+finished sourcing /usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/ruby.vim
+continuing in /usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/vim.vim
+chdir(/usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 655: sourcing "/usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/python.vim"
+finished sourcing /usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/python.vim
+continuing in /usr/local/Cellar/vim/7.4.273/share/vim/vim74/syntax/vim.vim
+finished sourcing /usr/local/share/vim/vim74/syntax/vim.vim
+continuing in function <SNR>3_SynSet
+Searching for "/usr/local/share/vim/vim74/syntax/vim/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/vim.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/vim/*.vim"
+Searching for "/Users/jayturn/.vim/after/syntax/vim.vim"
+Searching for "/Users/jayturn/.vim/after/syntax/vim/*.vim"
+Executing FileType Auto commands for "*"
+autocommand call s:LoadFTPlugin()
+
+Searching for "ftplugin/vim.vim ftplugin/vim_*.vim ftplugin/vim/*.vim" in "/Users/jayturn/.vim,/Users/jayturn/.vim/bundle/ack.vim,/Users/jayturn/.vim/bundle/ctrlp.vim,/Users/jayturn/.vim/bundle/DBGp-client,/Users/jayturn/.vim/bundle/delimitMate,/Users/jayturn/.vim/bundle/emmet-vim,/Users/jayturn/.vim/bundle/L9,/Users/jayturn/.vim/bundle/nerdtree,/Users/jayturn/.vim/bundle/snipmate,/Users/jayturn/.vim/bundle/syntastic,/Users/jayturn/.vim/bundle/tagbar,/Users/jayturn/.vim/bundle/vim-fugitive,/Users/jayturn/.vim/bundle/vim-multiple-cursors,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/ftplugin/vim/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftplugin/vim.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftplugin/vim_*.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftplugin/vim/*.vim"
+Searching for "/usr/local/share/vim/vim74/ftplugin/vim.vim"
+chdir(/usr/local/share/vim/vim74/ftplugin)
+fchdir() to previous dir
+line 17: sourcing "/usr/local/share/vim/vim74/ftplugin/vim.vim"
+finished sourcing /usr/local/share/vim/vim74/ftplugin/vim.vim
+continuing in function <SNR>6_LoadFTPlugin
+Searching for "/usr/local/share/vim/vim74/ftplugin/vim_*.vim"
+Searching for "/usr/local/share/vim/vim74/ftplugin/vim/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/ftplugin/vim.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/ftplugin/vim_*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/ftplugin/vim/*.vim"
+Searching for "/Users/jayturn/.vim/after/ftplugin/vim.vim"
+Searching for "/Users/jayturn/.vim/after/ftplugin/vim_*.vim"
+Searching for "/Users/jayturn/.vim/after/ftplugin/vim/*.vim"
+Executing FileType Auto commands for "*"
+autocommand call s:LoadIndent()
+
+Searching for "indent/vim.vim" in "/Users/jayturn/.vim,/Users/jayturn/.vim/bundle/ack.vim,/Users/jayturn/.vim/bundle/ctrlp.vim,/Users/jayturn/.vim/bundle/DBGp-client,/Users/jayturn/.vim/bundle/delimitMate,/Users/jayturn/.vim/bundle/emmet-vim,/Users/jayturn/.vim/bundle/L9,/Users/jayturn/.vim/bundle/nerdtree,/Users/jayturn/.vim/bundle/snipmate,/Users/jayturn/.vim/bundle/syntastic,/Users/jayturn/.vim/bundle/tagbar,/Users/jayturn/.vim/bundle/vim-fugitive,/Users/jayturn/.vim/bundle/vim-multiple-cursors,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/Users/jayturn/.vim/after"
+Searching for "/Users/jayturn/.vim/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/ack.vim/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/ctrlp.vim/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/DBGp-client/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/delimitMate/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/emmet-vim/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/L9/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/nerdtree/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/snipmate/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/syntastic/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/tagbar/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-fugitive/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/bundle/vim-multiple-cursors/indent/vim.vim"
+Searching for "/usr/local/share/vim/vimfiles/indent/vim.vim"
+Searching for "/usr/local/share/vim/vim74/indent/vim.vim"
+chdir(/usr/local/share/vim/vim74/indent)
+fchdir() to previous dir
+line 14: sourcing "/usr/local/share/vim/vim74/indent/vim.vim"
+finished sourcing /usr/local/share/vim/vim74/indent/vim.vim
+continuing in function <SNR>7_LoadIndent
+Searching for "/usr/local/share/vim/vimfiles/after/indent/vim.vim"
+Searching for "/Users/jayturn/.vim/after/indent/vim.vim"
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+Executing BufEnter Auto commands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand sil call s:VimEnter(expand("<amatch>"))
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+Writing viminfo file "/Users/jayturn/.viminfo"

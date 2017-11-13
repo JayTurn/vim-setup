@@ -261,6 +261,7 @@ set tags=php.tags
 
 " Activate pathogen plugin
 call pathogen#infect()
-
+" Activate pathogen help tags"
+call pathogen#helptags()
 " Disable unsafe commands
 set secure
